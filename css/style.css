@@ -190,13 +190,11 @@ header{
 	width: 100%;
 	padding: 50px 130px;
 }
-.box-body{
-	transition: all 0.5s ease-in-out;
-}
 
-.box-body:hover{
+.box-body{
 	box-shadow: 6px 5px 12px 0 rgba(0,0,0,0.5);
 	transition: all 0.5s ease-in-out;
+	padding: 20px;
 }
 
 .box-text{
@@ -320,7 +318,9 @@ header{
 .icons{
 	margin-left: 326px;
 }
-
+.icons ul li i{
+	cursor: pointer;
+}
 .icons ul li{
     list-style: none;
     display: inline-block;
@@ -330,7 +330,6 @@ header{
     line-height: 30px;
     border-radius: 50px;
     text-align: center;
-    cursor: pointer;
     color: black;
     margin-left: 7px;
 }
